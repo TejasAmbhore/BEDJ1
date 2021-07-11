@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <title>Home</title>
+</head>
+
+<body>
+
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Developer Tejas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Events</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>-->
+          <li class="nav-item">
+            <a class="nav-link" href="/projects">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+    <strong>Hello</strong> I am Tejas Ambhore,this a task website...
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  <div class="container-fluid mt-0 px-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://source.unsplash.com/1900x500/?tech,professor,research" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1900x500/?TED,patent,tech" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://source.unsplash.com/1900x500/?Patent,research,tech" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="container mt-5 py-3">
+    <h2 class="text-center">Technology Transfer Group</h2>
+    <div class="row my-5">
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/500x300/?meet,annual,research" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Annual Research Meet</h5>
+            <p class="card-text">a new initiative to connect the research and academia of IIT Kharagpur with the
+              industry and reach out to the students. We bring to you the first edition of the Annual Research Meet.
+              Let's have a look at the team that made it possible.</p>
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/500x300/?TED,TEDx" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TEDxIITKHARAGPUR</h5>
+            <p class="card-text">At our TEDxIITKharagpur event, TED Talks video and live speakers will combine to spark
+              deep discussion and connection in a small group.</p>
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="https://source.unsplash.com/500x300/?IPR,workshop" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">IPR Workshop</h5>
+            <p class="card-text">Image result for ipr full form
+              Image result for ipr full form
+              Image result for ipr full form
+              View all
+              Intellectual property rights are the rights given to persons over the creations of their minds. They
+              usually give the creator an exclusive right over the use of his/her creation for a certain period of time
+            </p>
+            <a href="#" class="btn btn-primary">Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-dark text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/TTG.SRIC" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com/tedxiitkgp2013?lang=en" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/tedxiitkharagpur/" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/company/technology-transfer-group/" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Technology Transfer Group
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quasi! Libero, tempora odio. Nesciunt sed
+              asperiores sit. Voluptates asperiores, facilis beatae deserunt id illo architecto laudantium, repellendus
+              saepe, veniam totam.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Events
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Annual Research Meet</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">TEDxIITKHARAGPUR</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">IPR Workshop</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Our Team
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">ABCD DGFH</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">ABCD DGFH</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">ABCD DGFH</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">ABCD DGFH</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Contact Us
+            </h6>
+            <p><i class="fas fa-home me-3"></i> IIT Kharagpur, Kharagpur, West Bengal, India 721302</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              ttgiitkharagpur@gmail.com
+            </p>
+            <p><i class="fas fa-globe me-3"></i> http://tedxiitkharagpur.com/</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="http://www.ttg-sric.iitkgp.ernet.in/">TTG, IIT Kharagpur</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
